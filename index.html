@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Attractive Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        crossorigin="anonymous">
+
+    <!-- Animate.css for animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body class="font-sans">
+
+    <!-- Navbar -->
+    <nav class="bg-gradient-to-r from-pink-500 to-purple-500 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold">Gabrial Deora</a>
+
+            <!-- Mobile Menu Toggle Button -->
+            <button id="menu-toggle" class="md:hidden focus:outline-none p-2">
+                <i class="fas fa-bars text-white text-2xl"></i>
+            </button>
+
+
+
+            <!-- Navbar Links -->
+            <div class="hidden md:flex items-center space-x-4">
+                <a href="index.html" class="hover:text-gray-200">Home</a>
+                <a href="#about" class="hover:text-gray-200">About</a>
+                <a href="#resume" class="hover:text-gray-200">Portfolio</a>
+                <a href="#projects" class="hover:text-gray-200">Projects</a>
+                <a href="#contact" class="hover:text-gray-200">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Responsive Navigation Menu (hidden by default) -->
+    <div id="mobile-menu" class="md:hidden bg-gradient-to-r from-pink-500 to-purple-500 text-white p-4 hidden">
+        <a href="index.html" class="block py-2">Home</a>
+        <a href="#about" class="block py-2">About</a>
+        <a href="#portfolio" class="block py-2">Portfolio</a>
+        <a href="#contact" class="block py-2">Contact</a>
+    </div>
+
+
+    <!-- Hero Section -->
+    <header
+        class="relative bg-gradient-to-r from-indigo-400 to-purple-800 text-white h-screen flex items-center hero-section">
+
+        <!-- Dark Overlay -->
+        <div class="absolute inset-0 bg-black opacity-40"></div>
+
+        <div class="container mx-auto text-center z-10 relative">
+            <h1 class="text-5xl font-bold mb-4 animate__animated animate__fadeIn animate__delay-1s text-shadow">Crafting
+                Digital Experiences</h1>
+            <p class="text-lg animate__animated animate__fadeIn animate__delay-2s">I design and build beautiful websites
+                that leave a lasting impression.</p>
+            <a href="#portfolio"
+                class="bg-gradient-to-r from-yellow-400 to-yellow-600 text-purple-600 px-8 py-3 mt-8 inline-block rounded-full hover:bg-yellow-500 transition duration-300 transform hover:scale-105 border border-purple-600 shadow-md font-bold mb-2 text-white">View
+                Portfolio</a>
+        </div>
+    </header>
+    <hr>
+   <!-- About Section -->
+<section id="about" class="py-16 bg-gradient-to-r from-indigo-800 to-purple-800 text-white">
+    <div class="container mx-auto text-center">
+        <h2 class="text-4xl font-bold mb-8">About Me</h2>
+        <div class="flex flex-col items-center space-y-4">
+            <div class="w-32 h-32 rounded-full overflow-hidden mb-4">
+                <img src="images\me.jpg" alt="Gabrial Deora" class="object-cover w-full h-2rem">
+            </div>
+            <p class="text-lg">
+                Greetings! As a second-year CT University CSE student, my name is GabriAL DEORA. I create aesthetically pleasing and responsive site designs using my proficiency in HTML5, CSS3, and Bootstrap. I have a basic understanding of Kali Linux and am interested in cybersecurity. I have also used tools like Wireshark, Burp Suite, SQLmap, Slowloris, and phishing. To improve my programming abilities, I'm also learning the basics of Python and C. I'm eager to contribute to creative initiatives and dedicated to keeping up with the ever-changing tech scene as I pursue my academic goals at CT University.
+        </div>
+    </div>
+</section>
+
+    <hr>
+    <!-- Resume Section -->
+    <section id="resume" class="py-16 bg-gradient-to-r from-indigo-800 to-purple-800 text-white">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold mb-12 text-center text-yellow-400">My Portfolio</h2>
+            <h2 class="text-4xl font-bold mb-8 text-left">Resume</h2>
+            <br><br>
+            <!-- Education -->
+            <div class="mb-8">
+                <h3 class="text-2xl font-bold mb-4">Education</h3>
+                <div class="flex items-center mb-4">
+                    <div
+                        class="flex-shrink-0 w-10 h-10 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 flex items-center justify-center">
+                        <i class="fas fa-graduation-cap text-purple-600"></i>
+                    </div>
+                    <div class="ml-4">
+                        <p class="text-lg font-semibold">B.Tech in Computer Science and Engineering specialisation in
+                            Cyber-Security</p>
+                        <p class="text-gray-400">CT UNIVERSITY</p>Graduation Year-2026</p>
+                    </div>
+                </div>
+                <!-- Add more education entries as needed -->
+            </div>
+            <br><br>
+            <!-- Work Experience -->
+            <div class="mb-8">
+                <h3 class="text-2xl font-bold mb-4">Internships & Projects</h3>
+                <div class="flex items-center mb-4">
+                    <div
+                        class="flex-shrink-0 w-10 h-10 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 flex items-center justify-center">
+                        <i class="fas fa-briefcase text-purple-600"></i>
+                    </div>
+                    <div class="ml-4">
+                        <p class="text-lg font-semibold">Web Development Intern</p>
+                        <p class="text-gray-400">CT UNIVERSITY, Summer 2023</p>
+                        <ul class="list-disc list-inside">
+                            <li>Contributed to the development of responsive web applications.</li>
+                            <li>Learned and applied modern web development technologies.(Intremediate level)</li>
+                            <!-- Add more bullet points as needed -->
+                        </ul>
+                    </div>
+                </div>
+                <!-- Add more work experience entries as needed -->
+                <!-- New Cybersecurity Internship Entry at IBM Alsoft Company -->
+                <div class="flex items-center mb-4">
+                    <div
+                        class="flex-shrink-0 w-10 h-10 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 flex items-center justify-center">
+                        <i class="fas fa-shield-alt text-purple-600"></i>
+                    </div>
+                    <div class="ml-4">
+                        <p class="text-lg font-semibold">Cybersecurity Intern</p>
+                        <p class="text-gray-400">IBM Alsoft Solution, Summer 2023</p>
+                        <ul class="list-disc list-inside">
+                            <li>Learning Kali Linux.</li>
+                            <li>Learned about Basics of Hacking Tools.</li>
+                            <!-- Add more bullet points as needed -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <!-- Skills -->
+            <div>
+                <h3 class="text-2xl font-bold mb-4">Skills</h3>
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                    <div class="flex items-center mb-4">
+                        <div
+                            class="flex-shrink-0 w-8 h-8 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 flex items-center justify-center">
+                            <i class="fab fa-html5 text-purple-600"></i>
+                        </div>
+                        <p class="ml-2">HTML5</p>
+                    </div>
+                    <div class="flex items-center mb-4">
+                        <div
+                            class="flex-shrink-0 w-8 h-8 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 flex items-center justify-center">
+                            <i class="fab fa-css3-alt text-purple-600"></i>
+                        </div>
+                        <p class="ml-2">CSS3</p>
+                    </div>
+                    <div class="flex items-center mb-4">
+                        <div
+                            class="flex-shrink-0 w-8 h-8 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 flex items-center justify-center">
+                            <i class="fab fa-linux text-purple-600"></i>
+                        </div>
+                        <p class="ml-2">Kali Linux</p>
+                    </div>
+                    <div class="flex items-center mb-4">
+                        <div
+                            class="flex-shrink-0 w-8 h-8 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 flex items-center justify-center">
+                            <!-- You can use the appropriate icon for C or Python -->
+                            <!-- For C -->
+                            <i class="fas fa-code text-purple-600"></i>
+                            <!-- For Python -->
+                            <!-- <i class="fab fa-python text-purple-600"></i> -->
+                        </div>
+                        <p class="ml-2">C (Beginner)</p>
+                        <!-- Replace "C" with "Python" if needed -->
+
+                    </div>
+                    <div class="flex items-center mb-4">
+                        <div
+                            class="flex-shrink-0 w-8 h-8 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 flex items-center justify-center">
+                            <!-- You can use the appropriate icon for C or Python -->
+                            <!-- For C -->
+                            <!-- <i class="fas fa-code text-purple-600"></i> -->
+                            <!-- For Python -->
+                            <i class="fab fa-python text-purple-600"></i>
+                        </div>
+                        <p class="ml-2">Python (Beginner)</p>
+                        <!-- Replace "C" with "Python" if needed -->
+
+                    </div>
+                    <!-- Add more skill entries as needed -->
+                </div>
+            </div>
+            <br><br>
+            <!-- Certifications -->
+            <div class="mb-8">
+                <h3 class="text-2xl font-bold mb-4">Certifications</h3>
+
+                <!-- Certification 1 -->
+                <div class="flex items-center mb-4">
+                    <div
+                        class="flex-shrink-0 w-10 h-10 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 flex items-center justify-center">
+                        <i class="fas fa-certificate text-purple-600"></i>
+                    </div>
+                    <div class="ml-4">
+                        <p class="text-lg font-semibold">Certificate for the completion of C Training (Score:55.00%)</p>
+                        <p class="text-gray-400">Spoken Tutorial Projects at IIT Bombay</p>
+                    </div>
+                </div>
+                <!-- Certification 2 -->
+                <div class="flex items-center mb-4">
+                    <div
+                        class="flex-shrink-0 w-10 h-10 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 flex items-center justify-center">
+                        <i class="fas fa-certificate text-purple-600"></i>
+                    </div>
+                    <div class="ml-4">
+                        <p class="text-lg font-semibold">Certificate for the completion of Cpp Training (Score:62.50%)
+                        </p>
+                        <p class="text-gray-400">Spoken Tutorial Projects at IIT Bombay</p>
+                    </div>
+                </div>
+                <!-- Certification 3 -->
+                <div class="flex items-center mb-4">
+                    <div
+                        class="flex-shrink-0 w-10 h-10 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 flex items-center justify-center">
+                        <i class="fas fa-certificate text-purple-600"></i>
+                    </div>
+                    <div class="ml-4">
+                        <p class="text-lg font-semibold">Certificate for the Basics of Web Development</p>
+                        <p class="text-gray-400">Online value added course at CT UNIVERSITY</p>
+                    </div>
+                </div>
+                <!-- Certification 4 -->
+                <div class="flex items-center mb-4">
+                    <div
+                        class="flex-shrink-0 w-10 h-10 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 flex items-center justify-center">
+                        <i class="fas fa-certificate text-purple-600"></i>
+                    </div>
+                    <div class="ml-4">
+                        <p class="text-lg font-semibold">Certificate for CyberSecurity Fundamentals</p>
+                        <p class="text-gray-400">By IBM skillsBuild</p>
+                    </div>
+                </div>
+                <!-- Certification 5 -->
+                <div class="flex items-center mb-4">
+                    <div
+                        class="flex-shrink-0 w-10 h-10 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 flex items-center justify-center">
+                        <i class="fas fa-certificate text-purple-600"></i>
+                    </div>
+                    <div class="ml-4">
+                        <p class="text-lg font-semibold">Project completion Certifiacte in CyberSecurity Internship</p>
+                        <p class="text-gray-400">By Allsoft Solutions</p>
+                    </div>
+                </div>
+                <!-- Certification 6 -->
+                <div class="flex items-center mb-4">
+                    <div
+                        class="flex-shrink-0 w-10 h-10 rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 flex items-center justify-center">
+                        <i class="fas fa-certificate text-purple-600"></i>
+                    </div>
+                    <div class="ml-4">
+                        <p class="text-lg font-semibold">Certifiacte of participation in Smart India Hackathon</p>
+                        <p class="text-gray-400">At CT UNIVERSITY</p>
+                    </div>
+                </div>
+                <!-- Add more certification entries as needed -->
+            </div>
+
+    </section>
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-gradient-to-r from-indigo-800 to-purple-800 text-white">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold mb-12 text-center text-yellow-400">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div
+                    class="bg-white p-6 rounded-lg shadow-md portfolio-item transform hover:scale-105 transition-transform">
+                    <img src="images\weather.png" alt="Project 1" class="mb-4 rounded-lg w-full h-48 object-cover">
+                    <h3 class="text-xl font-bold mb-2 text-purple-600">Weather Website</h3>
+                    <p class="text-gray-700 mb-4">Built a responsive Weather website using Html5, css3 and javascript.
+                    </p>
+                    <a href="https://gabrial-8467.github.io/weather-dsssgl/"
+                        class="text-yellow-500 hover:underline">View Details</a>
+                </div>
+
+                <!-- Project 2 -->
+                <div
+                    class="bg-white p-6 rounded-lg shadow-md portfolio-item transform hover:scale-105 transition-transform ">
+                    <img src="images\Portfolio.png" alt="Project 2" class="mb-4 rounded-lg w-full h-48 object-cover">
+                    <h3 class="text-xl font-bold mb-2 text-purple-600">Portfolio Website</h3>
+                    <p class="text-gray-700 mb-4">Designed and developed a personal portfolio using Tailwind CSS &
+                        Bootstrap Css.</p>
+                    <a href="#" class="text-yellow-500 hover:underline">View Details</a>
+                </div>
+
+
+
+                <!-- Add more projects as needed -->
+
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-gradient-to-r from-indigo-800 to-purple-800 text-white">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold mb-8 text-center">Get in Touch</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Contact Icons -->
+                <div class="flex flex-col items-center space-y-4">
+                    <div class="flex items-center space-x-4 contact-item">
+                        <i class="fas fa-envelope contact-icon"></i>
+                        <p>gabrialdeora004@gmail.com</p>
+                    </div>
+                    <div class="flex items-center space-x-4 contact-item">
+                        <i class="fas fa-phone-alt contact-icon"></i>
+                        <p>+917888695062</p>
+                    </div>
+                    <div class="flex items-center space-x-4 contact-item">
+                        <i class="fab fa-linkedin contact-icon"></i>
+                        <p>www.linkedin.com/in/gabrial-deora</p>
+                    </div>
+                    <div class="flex items-center space-x-4 contact-item">
+                        <i class="fab fa-github contact-icon"></i>
+                        <p>github.com/Gabrial-8467</p>
+                    </div>
+                    <div class="flex items-center space-x-4 contact-item">
+                        <i class="fab fa-instagram contact-icon"></i>
+                        <p>www.instagram.com/_king_0_0_4__</p>
+                    </div>
+                </div>
+
+                <!-- Call-to-Action Button -->
+                <div class="text-center">
+                    <p class="text-lg mb-4">Ready to start your next project together? Let's talk!</p>
+                    <a href="contactme.html"
+                        class="bg-yellow-500 text-purple-600 px-8 py-3 inline-block rounded-full hover:bg-yellow-400">Contact
+                        Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gradient-to-r from-pink-500 to-purple-500 text-white p-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2023 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS (optional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Script to toggle the mobile menu -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            function toggleMobileMenu() {
+                document.getElementById('mobile-menu').classList.toggle('hidden');
+            }
+
+            // Mobile menu toggle button
+            document.getElementById('menu-toggle').addEventListener('click', function () {
+                toggleMobileMenu();
+            });
+
+            // Close mobile menu on item click
+            document.querySelectorAll('#mobile-menu a').forEach(item => {
+                item.addEventListener('click', () => {
+                    toggleMobileMenu();
+                });
+            });
+
+            // Close mobile menu when clicking outside the menu
+            window.addEventListener('click', function (event) {
+                const mobileMenu = document.getElementById('mobile-menu');
+                const menuToggle = document.getElementById('menu-toggle');
+
+                if (!menuToggle.contains(event.target) && !mobileMenu.contains(event.target)) {
+                    mobileMenu.classList.add('hidden');
+                }
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #3b82f6, #9333ea);
+    color: #f3f4f6;
+}
+
+nav {
+    background: linear-gradient(to right, #8b5cf6, #9333ea);
+}
+
+
+
+
+
+.portfolio-item {
+    background: linear-gradient(to right, #ffffff, #f3f4f6);
+    color: #2d3748;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+.contact-item {
+    transition: transform 0.3s ease-in-out;
+}
+
+.contact-item:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background: linear-gradient(to right, #8b5cf6, #9333ea);
+}
+.text-shadow {
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.hero-section a {
+text-decoration: none;
+transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.hero-section a:hover {
+transform: scale(1.05);
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.hero-section a:focus {
+outline: none;
+}
+
+.hero-section a:active {
+transform: scale(0.95);
+box-shadow: none;
+} 
